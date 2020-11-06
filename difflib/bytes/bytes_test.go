@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 	"sort"
-	"../tester"
+	"github.com/ianbruene/go-difflib/difflib/tester"
 )
 
 func assertAlmostEqual(t *testing.T, a, b float64, places int) {
